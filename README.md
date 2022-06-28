@@ -1,6 +1,12 @@
 
 -- Instances:
 
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Script Loaded";
+	Text = "Subscribe To Prototype RBLX";
+	Icon = "rbxthumb://type=Asset&id=72382659&w=150&h=150"})
+Duration = 10;
+
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local FrameScripts = Instance.new("Frame")
